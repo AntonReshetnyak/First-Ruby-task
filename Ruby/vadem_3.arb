@@ -1,0 +1,17 @@
+class Task
+    def initialize(str)
+        @str = str
+    end
+
+    def removeLetter(l)
+        @str = @w
+    end
+
+    def show
+        p @str
+    end
+end
+
+my_str = Task.new(("a".."z").to_a.join(""))
+my_str.removeLetter("e")
+my_str.show

@@ -1,0 +1,9 @@
+array = (1..9).to_a
+
+def sumUpElements(array)
+    sum = 0
+    array.each{|i| sum += i}
+    return sum
+end
+
+puts sumUpElements(array)

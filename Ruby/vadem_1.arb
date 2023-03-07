@@ -1,0 +1,13 @@
+array = (1..16).to_a
+
+is_odd = Proc.new{|x| x % 2 == 1}
+odd_array = array.select(&is_odd)
+
+is_even = Proc.new{|x| x % 2 == 0}
+even_array = array.select(&is_even)
+
+array = nil
+
+print odd_array
+puts ""
+print even_array
